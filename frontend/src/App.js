@@ -1,19 +1,22 @@
-// import logo from './logo.svg';
-// import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 import Home from './Components/Home/Home';
 import { Box } from '@mui/material';
+import DataProvider from './contex/DataProvider';
+import {BrowserRouter} from "react-router-dom";
+import Router from './Router/Router';
 
 function App() {
   return (
-    <div className="App">
+    <DataProvider >
+<BrowserRouter>
 
 <Navbar></Navbar>
 <Box style={{marginTop:54}}>
-<Home></Home>
+<Router/>
 </Box>
 
-    </div>
+</BrowserRouter>
+    </DataProvider>
   );
 }
 
