@@ -4,8 +4,9 @@ import cors from 'cors';
 import bodyParser from "body-parser";
 import {v4 as uuid} from 'uuid';
 import { Connection } from "./connection/db.js";
-import DefaultData from "./default.js";
+import DefaultData from "./defaults/default.js";
 import Router from "./routes/route.js";
+import DefaultMobileData from "./defaults/defaultmobile.js";
 
 
 
@@ -33,7 +34,7 @@ app.listen(PORT,()=>console.log(`Server is running successfully on PORT ${PORT} 
 
 
 DefaultData();
-
+DefaultMobileData();
 
 
 export let  paytmMerchantKey =process.env.PAYTM_MERCHANT_KEY ;

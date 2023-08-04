@@ -45,14 +45,14 @@ useEffect(()=>{
    const totalAmount =()=>{
     let price = 0, discount=0;
     cartItems.map(item =>{
-        price += item.price.mrp;
-        discount += (item.price.mrp - item.price.cost);
+        price += item.price.mrp * item.quantity;
+        discount += (item.price.mrp - item.price.cost)* item.quantity;
     });
     setProductprice(price);
     setProductdiscount(discount);
    }
 
-
+console.log(cartItems);
 
 
     return (

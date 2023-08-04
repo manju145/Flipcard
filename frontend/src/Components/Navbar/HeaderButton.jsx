@@ -30,7 +30,14 @@ const Contaner= styled(Link)(({theme})=>({
     display:'block'
   }
 }));
-
+const MoreButton= styled(Link)(({theme})=>({
+  display: 'flex',
+  textDecoration: 'none',
+  color:'inherit',
+  [theme.breakpoints.down('md')]:{
+    display:'block'
+  }
+}));
 
 
 const LoginButton= styled(Button)`
@@ -71,8 +78,11 @@ const {cartItems} = useSelector(state => state.cart);
         
 
         <Typography style={{marginTop:3, width:135}} >Become a Seller</Typography>
+        <MoreButton to='/more'>
         <Typography style={{marginTop:3}}>More</Typography>
 
+        </MoreButton>
+      
         <Contaner to='/cart'>
           <Badge badgeContent={cartItems?.length} color='secondary' >
           <ShoppingCart/>

@@ -10,6 +10,7 @@ import MidSection from './MidSection';
 
 
 
+
 const Components= styled(Box)`
 padding :10px;
 background: #F2F2F2;
@@ -19,9 +20,10 @@ const Home = () => {
 
 
   const {pruducts} = useSelector(state => state.getProducts);
+ 
 
 // console.log(pruducts);
-  // console.log(products);
+
 
 const dispatch = useDispatch();
 
@@ -29,6 +31,7 @@ const dispatch = useDispatch();
 
 useEffect (()=>{
   dispatch(getProducts());
+
   },[dispatch]);
 
 

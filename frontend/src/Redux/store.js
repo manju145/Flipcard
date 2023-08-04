@@ -3,11 +3,12 @@ import {composeWithDevTools} from "redux-devtools-extension";
 import thunk from "redux-thunk";
 import { getProductDetailsReducer, getProductsReducer } from './reducer/productReducer';
 import {cartReducer} from "./reducer/cartReducer";
-
+import { getmobileProductsReducer } from "./reducer/mobileReducer";
 
 const reducer = combineReducers({
     getProducts: getProductsReducer,
     getProductDetails:getProductDetailsReducer,
+    getmobileProducts:getmobileProductsReducer,
     cart:cartReducer
 });
 
