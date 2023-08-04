@@ -1,6 +1,6 @@
 <h1>Flipkart Clone MERN APP</h1>
 
-Manju Yadav's Flipkart Clone is done with top-notch features for the entrepreneur startups like Flipkart.
+<h4>Manju Yadav's</h4> Flipkart Clone is done with top-notch features for the entrepreneur startups like Flipkart.
 
 <h1>Features</h1>
 
