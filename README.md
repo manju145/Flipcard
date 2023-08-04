@@ -52,7 +52,7 @@
 
 
 <h1>Installation </h1>
-For Client and Backend both
+For Frontend and Backend both
  <h1> npm install</h1>
 
 
