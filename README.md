@@ -4,12 +4,12 @@
 
 <h1>Features</h1>
 
-Login / Signup with Mobile Number
-One time Login 
-Add to Cart
-Add / Remove item to Cart
-Order Product
-Online Payment
+<p>Login / Signup with Mobile Number</p>
+<p>One time Login </p>
+<p>Add to Cart</p>
+<p>Add / Remove item to Cart</p>
+<p>Order Product</p>
+<p>Online Payment</p>
 
 
 <h1>LIVE APP</h1>
