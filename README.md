@@ -51,10 +51,9 @@
 ![image](https://github.com/manju145/Flipcard/assets/110039298/fa72fe6d-cbf9-477a-bfb4-b5c3455f11c3)
 
 
-<h1>Installation <h1>
+<h1>Installation </h1>h1>
 For Client and Server both
-
- <h1> npm install<h1>
+ <h1> npm install</h1>h1>
 
 
 
