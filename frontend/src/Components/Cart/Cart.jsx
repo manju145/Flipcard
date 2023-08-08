@@ -4,6 +4,7 @@ import { useSelector } from 'react-redux';
 import CartItem from './CartItem';
 import TotalView from './TotalView';
 import EmptyCart from './EmptyCart';
+import { useNavigate } from 'react-router-dom';
 
 
 const Container = styled(Grid)(({theme})=>({
@@ -48,8 +49,14 @@ const LeftComponent = styled(Grid)(({ theme })=>({
 
 
 const Cart = () => {
-
+    const navigate = useNavigate();
     const { cartItems } = useSelector(state => state.cart);
+
+const placeorder=()=>{
+    navigate('/buy');
+}
+
+    
 
     return (
         <>
@@ -66,7 +73,9 @@ const Cart = () => {
                                )) 
                             }
                             <ButtonWarapper>
-                                <StyledButton>Place Order</StyledButton>
+                                <StyledButton
+                                    onClick={() => placeorder()}
+                                >Place Order</StyledButton>
                             </ButtonWarapper>
                         </LeftComponent>
 
