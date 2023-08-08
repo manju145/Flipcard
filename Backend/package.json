@@ -2,11 +2,13 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "nodemon server.js",
+    "build":"echo sucess",
     "test": "echo \"Error: no test specified\" && exit 1"
+  
   },
   "author": "",
   "license": "ISC",

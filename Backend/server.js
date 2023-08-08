@@ -23,14 +23,19 @@ app.use('/',Router);
 
 
 
-
-const PORT= 8080;
+const PORT=  8080;
 
 const USERNAME=process.env.DB_USERNAME
 const PASSWORD=process.env.DB_PASSWORD
 
-Connection(USERNAME,PASSWORD);
-app.listen(PORT,()=>console.log(`Server is running successfully on PORT ${PORT} `));
+ Connection(USERNAME,PASSWORD);
+
+
+
+app.listen(process.env.PORT ||8080 ,()=>{
+
+    console.log(`Server is running successfully on PORT ${PORT} `)
+});
 
 
 DefaultData();
