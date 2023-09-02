@@ -1,7 +1,7 @@
 import axios from "axios";
 import * as actionTypes from "../constants/productContant"
 
-const URL= 'http://localhost:8080';
+const URL= 'https://agreeable-hospital-gown-tuna.cyclic.app';
 
 
 

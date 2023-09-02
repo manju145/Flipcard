@@ -45,10 +45,10 @@ useEffect (()=>{
        <Slide products={pruducts}title="Discounts for You"timer={false} ></Slide>
        <Slide products={pruducts}title="Suggesting Items"timer={false}  ></Slide>
        <Slide products={pruducts}title="Top Selection"timer={false} ></Slide>
-       <Slide products={pruducts}title="Recommended Items"timer={false} ></Slide>
-       <Slide products={pruducts}title="Treding Offers"timer={false} ></Slide>
+       {/* <Slide products={pruducts}title="Recommended Items"timer={false} ></Slide> */}
+       {/* <Slide products={pruducts}title="Treding Offers"timer={false} ></Slide>
        <Slide products={pruducts}title="Season's top picks"timer={false} ></Slide>
-       <Slide products={pruducts}title="Top Deals on Accessories"timer={false} ></Slide>
+       <Slide products={pruducts}title="Top Deals on Accessories"timer={false} ></Slide> */}
        </Components>
     </>
 

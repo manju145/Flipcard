@@ -1,7 +1,7 @@
 import axios from "axios";
 import * as actionTypes from "../constants/mobiledata"
 
-const URL= 'http://localhost:8080';
+const URL= 'https://agreeable-hospital-gown-tuna.cyclic.app';
 
 
 

@@ -1,7 +1,7 @@
 import axios from "axios";
 
 
-const URL= 'http://localhost:8080';
+const URL= 'https://agreeable-hospital-gown-tuna.cyclic.app';
 
 export const authenticateSignup = async(data)=>{
     try{
