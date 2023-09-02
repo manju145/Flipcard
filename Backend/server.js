@@ -6,7 +6,7 @@ import {v4 as uuid} from 'uuid';
 import { Connection } from "./connection/db.js";
 import DefaultData from "./defaults/default.js";
 import Router from "./routes/route.js";
-import DefaultMobileData from "./defaults/defaultmobile.js";
+// import DefaultMobileData from "./defaults/defaultmobile.js";
 
 
 
@@ -14,6 +14,9 @@ dotenv.config();
 
 const app = express();
 
+app.get("/", (req, res) => {
+    res.send("Welcome to Flikart Data backend");
+  });
 
 app.use(bodyParser.json({extended:true}));
 app.use(bodyParser.urlencoded({extended:true}));
@@ -39,7 +42,8 @@ app.listen(process.env.PORT ||8080 ,()=>{
 
 
 DefaultData();
-DefaultMobileData();
+
+// DefaultMobileData();
 
 
 export let  paytmMerchantKey =process.env.PAYTM_MERCHANT_KEY ;
