@@ -1,6 +1,6 @@
 <h1>Flipkart Clone MERN APP</h1>
 
-<h4>Manju Yadav's</h4> Flipkart Clone is done with top-notch features for the entrepreneur startups like Flipkart.
+<h4>Manju Yadav's</h4>This project is a web application for an e-commerce website built with React, React-Redux, Material UI, Styled Components, Express.js and mongoDb. The application allows users to browse products, add them to their cart, and checkout. Additionally, it features allows users to search for products based on title and description.
 
 <h1>Features</h1>
 
